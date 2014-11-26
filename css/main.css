@@ -1,0 +1,54 @@
+* {
+		margin: 0;
+		padding: 0;
+		border: 1px solid #EEE;
+}
+@font-face {
+		font-family: 'Roboto';
+		src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+}
+img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+}
+.header {
+		position: fixed;
+		right: 0;
+		left: 0;
+		z-index: 1030;
+		margin-bottom: 0;
+		background-color: #EEE;
+}
+body {
+		background-image: url(../images/school.png);
+		background-repeat: repeat;
+		font-family: 'Roboto', 'Sans Serif';
+}
+.page-title {
+		display: inline-block;
+		width: 100%;
+		text-align: center;
+}
+.navbar {
+		float: right;
+}
+.bodytext {
+		line-height: 1.5;
+}
+.logo {
+		float: left;
+		display: inline-block;
+}
+.navbar-container {
+		display: inline-block;
+}
+.header .navbar-container {
+		height: 40px;
+}
+.wrapper {
+		margin-top: 40px;
+}
+.app-container {
+		text-align: center;
+}
